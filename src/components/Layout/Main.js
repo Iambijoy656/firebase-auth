@@ -5,7 +5,7 @@ import Footer from "./../Footer/Footer";
 const Main = ({ user, setUser }) => {
   return (
     <div>
-      <Header user={user} setUser={setUser}></Header>
+      <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
     </div>

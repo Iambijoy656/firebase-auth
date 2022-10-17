@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import Swal from "sweetalert2";
 import app from "../../Hook/firebaseConfig";
